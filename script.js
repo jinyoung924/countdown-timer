@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const newYears = "1 Jan 2025";
+const newYears = "24 sep 2025";
 
 function countdown() {
   const newYearDate = new Date(newYears);
@@ -28,7 +28,7 @@ function formatTime(time) {
 function colorTime(time) {
   return time < 10
     ? ((secondsEl.style.color = "red"), `0${time}`)
-    : ((secondsEl.style.color = "black"), time);
+    : ((secondsEl.style.color = "white"), time);
 }
 
 countdown();

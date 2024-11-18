@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-image: url(https://advtrav.com/wp-content/uploads/2024/06/일본삿포로-시내-탐방-札幌市内探訪-800x533.webp);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
   font-family: "Kolker+Brush", sans-serif;
   margin: 0;
+  color : white;
 }
 
 h1 {
